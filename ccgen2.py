@@ -37,7 +37,7 @@ typ = ['JCB']
 secure_random = random.SystemRandom()
 print("Card Type:", secure_random.choice(typ))
 
-bank = ['Australia and New Zealand Banking Group', 'Commonwealth Bank', 'National Australia Bank', 'Westpac', 'Bank of Melbourne', 'BankSA', 'Bank of Australia', 'ME Bank', 'ING Direct', 'AMP', 'Beyond Bank', 'Peoples Choice Credit Union', 'Suncorp Bank']
+bank = ['Mitsubishi UFJ Trust and Banking Corporation', 'Mizuho Trust & Banking Co', 'Sumitomo Mitsui Trust Holdings', 'The Master Trust Bank of Japan', 'The Nomura Trust & Banking Co', 'Chiba Kōgyō Bank']
 secure_random = random.SystemRandom()
 print("Bank:", secure_random.choice(bank))
 
