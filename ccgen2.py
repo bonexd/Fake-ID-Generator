@@ -8,7 +8,6 @@ lname = ['藤本', '桐山', '青田', '青田', 'Jones', 'Miller', 'Davis', 'Ga
 secure_random = random.SystemRandom()
 print("Name:", secure_random.choice(fname), secure_random.choice(lname))
 
-// ????
 stname = ['Alder', 'Browning', 'Guthrie', 'High', 'Druid', 'Main', 'Lockwood', 'Queen', 'MacKenzie', 'King', 'Mistletoe', 'First', 'Second', 'Third', 'Angas', 'Fosters', 'Regency', 'Newbon', 'Percy', 'Bruce', 'Pirie', 'Currie', 'Gilbert', 'Waymouth', 'Flinders', 'Turner', 'Melrose', 'Silver', 'Turnbull', 'Orana', 'Briens', 'Wright', 'Davies', ]
 sttype = ['St', 'Rd', 'Ct', 'Ave', 'Ln', 'Cres']
 secure_random = random.SystemRandom()
@@ -38,7 +37,6 @@ typ = ['JCB']
 secure_random = random.SystemRandom()
 print("Card Type:", secure_random.choice(typ))
 
-/// ?
 bank = ['Australia and New Zealand Banking Group', 'Commonwealth Bank', 'National Australia Bank', 'Westpac', 'Bank of Melbourne', 'BankSA', 'Bank of Australia', 'ME Bank', 'ING Direct', 'AMP', 'Beyond Bank', 'Peoples Choice Credit Union', 'Suncorp Bank']
 secure_random = random.SystemRandom()
 print("Bank:", secure_random.choice(bank))
