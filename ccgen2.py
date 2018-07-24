@@ -13,7 +13,7 @@ sttype = ['St', 'Rd', 'Ct', 'Ave', 'Ln', 'Cres']
 secure_random = random.SystemRandom()
 print("Address:", random.randint(1,75), secure_random.choice(stname), secure_random.choice(sttype),)
 
-city = ['笹田市', '西之園市, 桐山市', '田中市', 'Perth, WA', 'Hobart, TAS', 'Brisbane, QLD', 'Surfers Paradise, QLD', 'Bendigo, VIC', 'Ballarat, VIC', 'Newcastle, NSW', 'Cairns, QLD', 'Townsville, QLD', 'Wollongong, NSW', 'Alice Springs, NT', 'Canberra, ACT', 'Darwin, NT', 'Toowoomba, QLD', 'Riverton, SA']
+city = ['笹田市', '西之園市, 桐山市', '田中市', '名古屋市', '豊橋市', '岡崎市', '一宮市', '秋田市', '大館市', '由利本荘市', '五所川原市', '久留米市']
 secure_random = random.SystemRandom()
 print("City:", secure_random.choice(city))
 
